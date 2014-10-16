@@ -21,7 +21,7 @@
 
     <detail>
         <thumbnail name="preview">preview.png</thumbnail>
-        <description>A sleek black theme that is the default theme for the Mythbuntu distribution. The Mythbuntu theme is inspired by ProjectGrayhem.</description> 
+        <description>This is the classic Mythbuntu theme. It is not actively developed, but patches are accepted.</description> 
         <errata>Requires OpenGL Themepainter</errata>
     </detail>
 </themeinfo>
