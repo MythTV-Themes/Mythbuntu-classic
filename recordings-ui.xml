@@ -23,7 +23,7 @@
         <!--     <value>Watch Recordings</value> -->
         <!-- </textarea> -->
 
-	<group name="groupgroup" depends="!coverart">
+	<group name="groupgroup">
 
 	    <!-- <animation trigger="AboutToShow"> -->
 	    <!-- 	<section duration="500"> -->
