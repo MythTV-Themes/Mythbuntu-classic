@@ -1895,7 +1895,7 @@
 	<group name="details" from="detailsgroup" />
 
         <spinbox name="priority" from="basewidespinbox">
-            <position>377,310</position>
+            <position>377,290</position>
             <template type="negative">Reduce priority by %n</template>
             <template type="zero">Normal recording priority</template>
             <template type="positive">Raise priority by %n</template>
@@ -1903,12 +1903,12 @@
         </spinbox>
 
         <buttonlist name="input" from="basewideselector">
-            <position>377,355</position>
+            <position>377,330</position>
             <helptext></helptext>
         </buttonlist>
 
         <spinbox name="startoffset" from="basewidespinbox">
-            <position>377,400</position>
+            <position>377,370</position>
             <template type="negative">Start recording %n minute(s) late</template>
             <template type="zero">Start recording on time</template>
             <template type="positive">Start recording %n minute(s) early</template>
@@ -1916,7 +1916,7 @@
         </spinbox>
 
         <spinbox name="endoffset" from="basewidespinbox">
-            <position>377,445</position>
+            <position>377,410</position>
             <template type="negative">End recording %n minute(s) early</template>
             <template type="zero">End recording on time</template>
             <template type="positive">End recording %n minute(s) late</template>
@@ -1924,12 +1924,17 @@
         </spinbox>
 
         <buttonlist name="dupmethod" from="basewideselector">
-            <position>377,490</position>
+            <position>377,450</position>
             <helptext></helptext>
         </buttonlist>
 
         <buttonlist name="dupscope" from="basewideselector">
-            <position>377,535</position>
+            <position>377,490</position>
+            <helptext></helptext>
+        </buttonlist>
+
+        <buttonlist name="autoextend" from="basewideselector">
+            <position>377,530</position>
             <helptext></helptext>
         </buttonlist>
 
